@@ -1,0 +1,22 @@
+{
+  "name": "waterandair/auth-grpc-php",
+  "version": "1.0.0",
+  "description": "grpc php SDK",
+  "homepage": "https://github.com/waterandair/auth-grpc-php",
+  "type": "library",
+  "require": {
+    "php": ">=5.5.9",
+    "grpc/grpc": "^1.9",
+    "guzzlehttp/guzzle": "~6.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "fzaninotto/faker": "~1.5",
+    "satooshi/php-coveralls": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Waterandair\\AuthGrpc\\": "src/Waterandair/AuthGrpc"
+    }
+  }
+}
